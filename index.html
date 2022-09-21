@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class = "header">
+<div class = "title">
+    <h1>PEMERINTAH KABUPATEN SOLOK<br>RUMAH SAKIT UMUM DAERAH OROSUKA</h1><br>
+</div>
+
+</div>
+
+    <form name="form1" method="" action="" onsubmit="validateForm()">
+        <div class = "form">
+        <div class = form-title>
+        <h1>1. Identitas Pasien</h1>
+        </div>
+        <label for="nama">Nama Lengkap</label><br>
+        <input type="text" id="nama" name="nama" placeholder="Nama Lengkap"><br>
+
+        <label for="TempatLahir">Tempat Lahir</label><br>
+        <input type="text" id="TempatLahir" name="Tempat Lahir" placeholder="Tempat Lahir"><br>
+        <label for="tanggalLahir">Tanggal Lahir</label><br>
+        <input type="date" id="tanggalLahir" name="Tanggal Lahir"><br>
+        <label for='jenis-kelamin'>Jenis Kelamin</label><br>
+        <select id="jenis-kelamin" name="jenis_kelamin"><br>
+            <option value="lk">Laki-laki</option>
+            <option value="pr" selected>Perempuan</option>
+            <option value="rahasia">Rahasia</option>
+        </select><br>
+        <label for="alamat">Alamat</label><br>
+        <input type="text" id="alamat" name="alamat" placeholder="Alamat"><br>
+        <label for="provinsi">Provinsi</label><br>
+        <input type="text" id="provinsi" name="provinsi" placeholder="Provinsi"><br>
+        <label for="kota">Kota</label><br>
+        <input type="text" id="kota" name="kota" placeholder="Kota"><br>
+        <label for="kecamatan">Kecamatan</label><br>
+        <input type="text" id="kecamatan" name="kecamatan" placeholder="Kecamatan"><br>
+        <label for="kelurahan">Kelurahan</label><br>
+        <input type="text" id="kelurahan" name="kelurahan" placeholder="Kelurahan"><br>
+        <label for="kodepos">Kode Pos</label><br>
+        <input type="text" id="kodepos" name="kodepos" placeholder="Kode Pos"><br>
+        <label for="agama">Agama</label><br>
+        <select id = "agama" name = "agama">
+            <option value="islam">Islam</option>
+            <option value="kristen">Kristen</option>
+            <option value="Dll">Hindu</option>
+        </select><br>
+        <label for="Pekerjaan">Pekerjaan</label><br>
+        <input type="text" id="Pekerjaan" name="Pekerjaan" placeholder="Pekerjaan"><br>
+        <label for="pendidikan">Pendidika Terakhir</label><br>
+        <input type="text" id="pendidikan" name="pendidikan" placeholder="Pendidikan"><br>
+        </div>
+        <br>
+        <div class = "form">
+        <div class = form-title>
+        <h1>2. Identitas Penanggung Jawab</h1>
+        </div>
+            <p>Hubungan Penanggung jawab</p>
+            <fieldset>
+                <input type="radio" id="orangtua" name="penanggung_jawab" value="orangtua">
+                <label for="orangtua">Orang tua</label><br>
+                <input type="radio" id="suami" name="penanggung_jawab" value="suami">
+                <label for="suami">Suami</label><br>
+                <input type="radio" id="saudara" name="penanggung_jawab" value="suami">
+                <label for="saudara">Saudara</label><br>
+                    <input type="radio" id="dll" name="penanggung_jawab" value="suami">
+                    <label for="dll">dll</label><br>
+            </fieldset>
+        <label for="namaPJ">Nama Lengkap</label><br>
+        <input type="text" id="namaPJ" name="namaPJ" placeholder="Nama Lengkap"><br>
+        <label for="PendidikanPJ">Tempat Lahir</label><br>
+        <input type="text" id="PendidikanPJ" name="PendidikanPJ" placeholder="Pendidikan"><br>
+        <label for="PekerjaanPJ">Pekerjaan</label><br>
+        <input type="text" id="PekerjaanPJ" name="PekerjaanPJ" placeholder="Pekerjaan"><br>
+        </div>
+        <br>
+        <div class = "form">
+        <input type="submit" value="Submit">
+        </div>
+    </form>
+
+
+</body>
+</html>
